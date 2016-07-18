@@ -9,9 +9,9 @@ class Employee
   end
 
 
-  # def assign_boss
-  #   @boss.assign_employee(self)
-  # end
+   def assign_boss
+     @boss.assign_employee(self)
+   end
 
   def bonus(multi = nil)
     return @salary if multi == nil
